@@ -1,5 +1,5 @@
 Name: xprop
-Version: 1.0.2
+Version: 1.0.3
 Release: %mkrel 1
 Summary: Property displayer for X
 Group: Development/X11
@@ -15,12 +15,10 @@ BuildRequires: x11-util-macros >= 1.0.1
 The xprop utility is for displaying window and font properties in an X server.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir}
-
+%configure2_5x
 %make
 
 %install
@@ -33,6 +31,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/xprop
-%{_mandir}/man1/xprop.*.bz2
+%{_mandir}/man1/xprop.*
 
 

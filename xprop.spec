@@ -1,5 +1,5 @@
 Name: xprop
-Version: 1.2.4
+Version: 1.2.5
 Release: 1
 Summary: Property displayer for X
 Group: Development/X11

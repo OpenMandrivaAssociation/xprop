@@ -1,6 +1,6 @@
 Name:		xprop
-Version:	1.2.6
-Release:	2
+Version:	1.2.7
+Release:	1
 Summary:	Property displayer for X
 Group:		Development/X11
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
